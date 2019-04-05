@@ -2,6 +2,7 @@ import java.rmi.*;
 import java.rmi.server.*;   
  
 public class ServerCentral {
+		FichierLog Flog= null;
 	   public static void main (String[] argv) {
 		   try {
 			   System.setSecurityManager(new RMISecurityManager());
